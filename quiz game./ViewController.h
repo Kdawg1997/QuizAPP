@@ -10,17 +10,26 @@
 
 @interface ViewController : UIViewController
 {
-    UILabel *question; 
+    UITextView *question;
     UITextField *answer;
     UIImageView *picture;
-    UIButton *next; 
+    UILabel *correctIncorrect;
+    UIButton *submit;
+    UIButton *next;
+    
+    int currentQuestion;
 }
 
-@property (nonatomic, retain) UILabel *question;
-@property (nonatomic, retain) UITextField *answer;
-@property (nonatomic, retain) UIImageView *picture;
-@property (nonatomic, retain) UIButton *next;
+@property (nonatomic, retain) IBOutlet UIView *question;
+@property (nonatomic, retain) IBOutlet UITextField *answer;
+@property (nonatomic, retain) IBOutlet UIImageView *picture;
+@property (nonatomic, retain) IBOutlet UILabel *correctIncorrect;
+@property (nonatomic, retain) IBOutlet UIButton *submit;
+@property (nonatomic, retain) IBOutlet UIButton *next;
+@property (nonatomic) int currentQuestion;
 
--(IBAction):(id)sender;
+
+-(IBAction)nextQuestion:(id)sender;
+-(IBAction)checkAnswer:(id)sender;
 
 @end

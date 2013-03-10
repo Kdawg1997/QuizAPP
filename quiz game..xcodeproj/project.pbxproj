@@ -25,6 +25,10 @@
 		E6BCA7E716A387BC00E7E92A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6BCA7E516A387BC00E7E92A /* InfoPlist.strings */; };
 		E6BCA7EA16A387BC00E7E92A /* quiz_game_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BCA7E916A387BC00E7E92A /* quiz_game_Tests.m */; };
 		E6F565CF16A396C700D3E903 /* 2Pac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6F565CE16A396C700D3E903 /* 2Pac.jpg */; };
+		E6FC869E16C86C6500E62BD0 /* Dr.Dre-7.31.2012.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6FC869D16C86C6500E62BD0 /* Dr.Dre-7.31.2012.jpg */; };
+		E6FC86A116C86C7100E62BD0 /* run_dmc-1683.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6FC86A016C86C7100E62BD0 /* run_dmc-1683.jpg */; };
+		E6FC86A316C86F5600E62BD0 /* 2-Chainz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6FC86A216C86F5600E62BD0 /* 2-Chainz.jpg */; };
+		E6FC86A516C86F5F00E62BD0 /* 50-cent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E6FC86A416C86F5F00E62BD0 /* 50-cent.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		E6BCA7E816A387BC00E7E92A /* quiz_game_Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quiz_game_Tests.h; sourceTree = "<group>"; };
 		E6BCA7E916A387BC00E7E92A /* quiz_game_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = quiz_game_Tests.m; sourceTree = "<group>"; };
 		E6F565CE16A396C700D3E903 /* 2Pac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2Pac.jpg; path = ../../../../Desktop/2Pac.jpg; sourceTree = "<group>"; };
+		E6FC869D16C86C6500E62BD0 /* Dr.Dre-7.31.2012.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dr.Dre-7.31.2012.jpg"; sourceTree = "<group>"; };
+		E6FC86A016C86C7100E62BD0 /* run_dmc-1683.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "run_dmc-1683.jpg"; sourceTree = "<group>"; };
+		E6FC86A216C86F5600E62BD0 /* 2-Chainz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-Chainz.jpg"; sourceTree = "<group>"; };
+		E6FC86A416C86F5F00E62BD0 /* 50-cent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "50-cent.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 		E6BCA7BB16A387BC00E7E92A /* quiz game. */ = {
 			isa = PBXGroup;
 			children = (
+				E6FC86A416C86F5F00E62BD0 /* 50-cent.jpg */,
+				E6FC86A216C86F5600E62BD0 /* 2-Chainz.jpg */,
+				E6FC869D16C86C6500E62BD0 /* Dr.Dre-7.31.2012.jpg */,
+				E6FC86A016C86C7100E62BD0 /* run_dmc-1683.jpg */,
 				E6F565CE16A396C700D3E903 /* 2Pac.jpg */,
 				E6BCA7C416A387BC00E7E92A /* AppDelegate.h */,
 				E6BCA7C516A387BC00E7E92A /* AppDelegate.m */,
@@ -244,6 +256,10 @@
 				E6BCA7CF16A387BC00E7E92A /* MainStoryboard_iPhone.storyboard in Resources */,
 				E6BCA7D216A387BC00E7E92A /* MainStoryboard_iPad.storyboard in Resources */,
 				E6F565CF16A396C700D3E903 /* 2Pac.jpg in Resources */,
+				E6FC869E16C86C6500E62BD0 /* Dr.Dre-7.31.2012.jpg in Resources */,
+				E6FC86A116C86C7100E62BD0 /* run_dmc-1683.jpg in Resources */,
+				E6FC86A316C86F5600E62BD0 /* 2-Chainz.jpg in Resources */,
+				E6FC86A516C86F5F00E62BD0 /* 50-cent.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
